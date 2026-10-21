@@ -1,7 +1,7 @@
 const { Telegraf, Markup } = require("telegraf");
 
-const BOT_TOKEN = "(BotID)";
-const ADMINS = [(UserID), (UserID)];
+const BOT_TOKEN = "(8530228681:AAGWKEd4VvyE3TV37SD5bon6Z_7D06lGUq8)";
+const ADMINS = [(5446916837), (8687151383)];
 const RATE_LIMIT = { window: 30000, max: 3 };
 
 const bot = new Telegraf(BOT_TOKEN);
