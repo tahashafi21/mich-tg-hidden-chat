@@ -1,10 +1,10 @@
 const { Telegraf, Markup } = require("telegraf");
 
-const BOT_TOKEN = "(BotID)";
-const ADMINS = [(UserID), (UserID)];
+const BOT_TOKEN = "(8530228681:AAGWKEd4VvyE3TV37SD5bon6Z_7D06lGUq8)";
+const ADMINS = [(5446916837), (8687151383)];
 const RATE_LIMIT = { window: 30000, max: 3 };
 
-const bot = new Telegraf(BOT_TOKEN);
+const bot = new Telegraf(8530228681:AAGWKEd4VvyE3TV37SD5bon6Z_7D06lGUq8);
 
 /* ===== RAM STATE ===== */
 const rateMap = new Map();
@@ -40,7 +40,7 @@ bot.start(
     if (isAdmin(ctx.from.id)) ctx.reply("بات فعاله؛ به خودت نمیتونی چیزی بفرستی").catch(() => {});
     else
       ctx
-        .reply("هر انتقادی که نسبت به من داری یا حرفی که تو دلت هست رو با خیال راحت بنویس و بفرست. بدون اینکه از اسمت باخبر بشم پیامت به من می‌رسه. 📑")
+        .reply("سلام به ربات گروه آموزشی وانت خوش اومدی؛ پیامت رو بفرست و منتظر جوابش توسط تیم وانت بمون.")
         .catch(() => {});
   }),
 );
